@@ -50,3 +50,14 @@ and run Emacs.
 `C-S-right`
 `C-S-up`
 `C-S-down`
+
+## Magit
+
+`M-x magit-status` git status
+`s` stage file
+`c c` to commit (type message and press C-c C-c to actually commit)
+`b b` to change branch
+`TAB` for file changes
+
+`P u` git push
+`F u` git pull
