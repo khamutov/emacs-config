@@ -1,0 +1,22 @@
+# Compiled
+*.elc
+
+# Packaging
+.cask
+
+elpa/*
+places
+backups/*
+auto-save-list
+
+# Say thank you to projectile for this
+projectile-bookmarks.eld
+projectile.cache
+
+tramp
+bookmarks
+ido.last
+anaconda-mode
+eshell
+
+smex-items
