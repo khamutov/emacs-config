@@ -1,6 +1,6 @@
 (if (display-graphic-p)
-    (load-theme 'solarized-dark 't)
-  (load-theme 'default-dark 't))
+    (load-theme 'solarized-light 't)
+  (load-theme 'default-light 't))
 
 ;; Set cursor type to bar like in the Atom editor
 (setq-default cursor-type 'bar)
