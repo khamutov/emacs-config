@@ -7,7 +7,7 @@
 (show-paren-mode 1)
 
 ;; Delete trailing whitespaces when saving file
-(add-hook 'before-save-hook 'delete-trailing-whitespace)
+;; (add-hook 'before-save-hook 'delete-trailing-whitespace)
 
 ;; Disable backups and auto save, use VCS instead!
 (setq backup-inhibited t)
