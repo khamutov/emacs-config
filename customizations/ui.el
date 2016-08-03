@@ -2,6 +2,9 @@
     (load-theme 'solarized-light 't)
   (load-theme 'default-light 't))
 
+;; disable welcome screen
+(setq inhibit-startup-screen t)
+
 ;; Set cursor type to bar like in the Atom editor
 (setq-default cursor-type 'bar)
 

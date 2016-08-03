@@ -81,6 +81,9 @@
 ;; to load particular emacs lisp files from it
 (add-to-list 'load-path "~/.emacs.d/customizations")
 
+;; load sr-speedbar
+(require 'sr-speedbar)
+
 ;; Load Emacs UI customizations. Here we set up a color theme,
 ;; enable/disable different interface elemenets and so on
 (load "ui.el")
@@ -95,5 +98,4 @@
 (load "misc.el")
 
 ;; Language-specific customizations
-
 (load "setup-clojure.el")

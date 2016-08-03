@@ -43,6 +43,7 @@ and run Emacs.
 ## Paredit
 
 `M-(` surround expression with ()  
+`M-s` remove out ()__
 
 ## Change window size:
 
@@ -61,3 +62,11 @@ and run Emacs.
 
 `P u` git push  
 `F u` git pull  
+
+## sr-speedbar
+
+`s-s` toggle speedbar
+
+## custom bindings
+
+`C-;` comment selection

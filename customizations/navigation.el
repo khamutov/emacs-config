@@ -33,3 +33,6 @@
 (global-set-key (kbd "S-C-<right>") 'enlarge-window-horizontally)
 (global-set-key (kbd "S-C-<down>") 'shrink-window)
 (global-set-key (kbd "S-C-<up>") 'enlarge-window)
+
+;; sr-speedbar
+(global-set-key (kbd "s-s") 'sr-speedbar-toggle)
