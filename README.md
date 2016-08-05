@@ -1,7 +1,7 @@
 To install do
 
 ```console
-git clone git@github.com:khamutov/emacs-configs.git ~/.emacs.d
+git clone git@github.com:khamutov/emacs-config.git ~/.emacs.d
 ```
 
 and run Emacs.
@@ -44,6 +44,8 @@ and run Emacs.
 
 `M-(` surround expression with ()  
 `M-s` remove out ()__
+`C-M-f` paredit-forward__
+`C-M-b` paredit-backward
 
 ## Change window size:
 
