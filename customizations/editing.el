@@ -16,6 +16,9 @@
 ;; Show column numbers in mode line
 (column-number-mode 1)
 
+;; paredit
+(global-set-key (kbd "M-[") 'paredit-wrap-square) 
+
 ;; comments
 (defun toggle-comment-dwim ()
   "comment or uncomment current region or line"
