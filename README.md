@@ -37,6 +37,8 @@ and run Emacs.
 `M-.` navigate to symbol  
 `M-,` navigate to back  
 `C-c C-d C-a` find text across fun names and docs  
+`C-c C-x` reload all modified files__
+`C-c C-o` clean repl output__
 
 `q` close stacktrace  
 
