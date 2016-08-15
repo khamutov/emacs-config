@@ -16,6 +16,9 @@
 ;; Show column numbers in mode line
 (column-number-mode 1)
 
+;; auto-revert
+(global-auto-revert-mode 1)
+
 ;; paredit
 (global-set-key (kbd "M-[") 'paredit-wrap-square) 
 
