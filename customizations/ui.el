@@ -31,6 +31,9 @@
 ;; No cursor blinking
 (blink-cursor-mode 0)
 
+;; highlight line
+(global-hl-line-mode)
+
 ;; Disable bell
 (setq ring-bell-function 'ignore)
 

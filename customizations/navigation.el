@@ -18,7 +18,7 @@
 
 ;; Enable windmove keybindings. Jump between windows with shift +
 ;; direction arrow
-(windmove-default-keybindings)
+(windmove-default-keybindings 'super)
 
 ;; projectile everywhere!
 (projectile-global-mode)
@@ -35,4 +35,4 @@
 (global-set-key (kbd "S-C-<up>") 'enlarge-window)
 
 ;; sr-speedbar
-(global-set-key (kbd "s-s") 'sr-speedbar-toggle)
+;;(global-set-key (kbd "s-s") 'sr-speedbar-toggle)
